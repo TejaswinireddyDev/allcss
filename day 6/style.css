@@ -1,0 +1,14 @@
+.md{
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(221, 223, 223);
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    
+}
+.cd{
+    height: 20px;
+    width: 70px;
+    padding:10px;
+}
