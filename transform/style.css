@@ -1,0 +1,75 @@
+.md {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-image:radial-gradient(rgb(201, 201, 26),grey);
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .cd {
+    border: 1px solid ;
+    height: 400px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: width 1s;
+    transform: skewY(10deg);
+  }
+  .div1 {
+     background-image: url(https://i.pinimg.com/564x/7e/a6/88/7ea688c3e09fdff34392e58053d5adb5.jpg);
+     background-size: 500px;
+  }
+  .div1:hover{
+    width: 300px;
+    height: 500px;
+  }
+  .div2 {
+     background-image: url(https://i.pinimg.com/736x/04/14/3c/04143ce9f0074fb1342b5b039b652de2.jpg);
+     background-size: 500px;
+    
+  }
+  .div2:hover{
+    width: 400px;
+    height: 500px;
+  }
+  .div3 {
+    background-image: url(https://images.meesho.com/images/products/394710056/t81tm_512.webp);
+    background-size: 500px;
+    
+  }
+  .div3:hover{
+    width: 250px;
+    height: 500px;
+  }
+  .div4 {
+    background-image: url(https://i.pinimg.com/736x/fd/80/65/fd8065ed56d4a8724b12222e0c0f84ed.jpg);
+    background-size: 500px;
+   
+  }
+  .div4:hover{
+    width: 250px;
+    height: 500px;
+  }
+  .div5 {
+    background-image: url(https://i.pinimg.com/736x/c2/e8/64/c2e8641d4055ad8a535b9107c25d3926.jpg);
+    background-size: 310px;
+    
+  }
+  .div5:hover{
+    width: 250px;
+    height: 500px;
+  }
+  .div6 {
+    background-image: url(https://m.media-amazon.com/images/I/61A-tkCu5-L._AC_UF1000,1000_QL80_.jpg);
+    background-size: 500px;
+    
+  }
+  .div6:hover{
+    width: 250px;
+    height: 500px;
+  }
