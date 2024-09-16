@@ -1,0 +1,167 @@
+.main {
+    border: 3px solid black;
+    height: 580px;
+    width: 305px;
+    border-radius: 15px;
+  }
+  .head{
+    
+    height: 50px;
+    width: 310px;
+    display: flex; 
+  }
+  .foot{
+    height: 45px;
+    width: 305px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 7px;
+  }
+  .body{
+    overflow-y: scroll ;
+    scrollbar-width: none;
+    height: 485px;
+  }
+  .img1{
+    height: 20px;
+    display: inline;
+    position: relative;
+    top: 10px;
+  }
+  .img2{
+    height: 22px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    
+  }
+  .img3{
+    height:25px ;
+    position: relative;
+    top: 8px;
+    left: 50px;
+  }
+  .img4{
+    height: 25px;
+    position: relative;
+    top: 8px;
+    left: 70px;
+  }
+  .main:hover{
+    color: white;
+    background-color: rgb(59, 53, 53);
+  }
+  .d1{
+    border: 3px solid chartreuse;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-size: cover;
+    background-image: url(https://preview.redd.it/kalki-2898-ad-whom-would-you-cast-as-rest-of-padva-and-lord-v0-fb9ip1hthnbd1.png?width=839&format=png&auto=webp&s=c0eecd2194e316d3c372807b9c59f7947e381c71)  
+  }
+  .d2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+  }
+  .d22{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-image: url("insta.3.jpg");
+    background-size: cover;
+  }
+  .d23{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-image: url("insta.2.jpg");
+    background-size: cover;
+  }
+  .d24{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-image: url("insta.1.jpg");
+    background-size: cover;
+  }
+  .d3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+  }
+  .d4{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+ .d41{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://pics.craiyon.com/2023-06-16/37f95bcde82c4e2cbf2fcfb2a0a06750.webp);
+  background-size: cover;
+ }
+ .d42{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://m.media-amazon.com/images/I/81bFGbwtdaL._AC_UF1000,1000_QL80_.jpg);
+  background-size: cover;
+ }
+ .d43{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://m.media-amazon.com/images/I/61epT6ffq+L.jpg);
+  background-size: cover;
+ }
+ .d44{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://i.pinimg.com/736x/2d/7b/29/2d7b29747253454831648929ea55a5f4.jpg);
+  background-size: cover;
+ }
+ .d45{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://i.pinimg.com/736x/85/01/fa/8501fab4c98c2c8c853168858f6323c1.jpg);
+  background-size: cover;
+ }
+ .d46{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://5.imimg.com/data5/SELLER/Default/2023/11/358882460/FV/GY/RW/20619026/cute-radha-krishna-canvas-painting.jpg);
+  background-size: cover;
+ }
+ .d47{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://img.freepik.com/premium-photo/happy-janmashtami-festival-wallpaper-with-cute-lord-krishna_94574-382.jpg);
+  background-size: cover;
+ }
+ .d48{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://m.media-amazon.com/images/I/71yc4G74FZL._AC_UF894,1000_QL80_.jpg);
+  background-size: cover;
+ }
+ .d49{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  background-image: url(https://img.freepik.com/premium-photo/lord-krishna-3d-cute-cartoon-wallpaper-white-background_667131-97.jpg);
+  background-size: cover;
+ } 
