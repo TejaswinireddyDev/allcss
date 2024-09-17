@@ -1,0 +1,350 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background-color:blanchedalmond ;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .d1 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+  .d2 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .d3 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+  }
+  .d4 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  .d5 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+  }
+  .d6 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+  }
+  .d7 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+  }
+  .d8 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+  }
+  .d9 {
+    height: 32vh;
+    width: 32vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+  }
+  .d11 {
+    background-color: orangered;
+  }
+  .d12 {
+    background-color: orange;
+  }
+
+  .d13 {
+    background-color:yellow;
+  }
+  .d14 {
+    background-color:green;
+  }
+  .d15 {
+    background-color:teal;
+  }
+  .d16 {
+    background-color:rgb(103, 235, 235);
+  }
+  .d21 {
+    background-color: orangered;
+    grid-column: 1/3;
+  }
+  .d22 {
+    background-color: orange;
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+  .d23 {
+    background-color:green;
+  }
+  .d24 {
+    background-color: teal;
+  }
+  .d31 {
+    background-color: orange;
+    grid-column: 1/5;
+  }
+  .d32 {
+    background-color: green;
+  }
+  .d33 {
+    background-color: orangered;
+    grid-column: 2/5;
+  }
+  .d34 {
+    background-color: teal;
+    grid-column: 1/5;
+  }
+  .d41 {
+    background-color: orange;
+    grid-column: 1/3;
+  }
+  .d42 {
+    background-color: orangered;
+    grid-column: 3/5;
+  }
+  .d43{
+    background-color: green;
+  }
+  .d44 {
+    background-color:teal;
+    grid-column: 2/5;
+  }
+  .d45 {
+    background-color: orange;
+    grid-column: 1/5;
+  }
+  .d51 {
+    background-color:green;
+    
+  }
+  .d52 {
+    background-color: orange;
+  }
+  .d53 {
+    background-color: teal;
+  }
+  .d54 {
+    background-color: orangered;
+  }
+  .d55 {
+    background-color: teal;
+  }
+  .d56 {
+    background-color: orange;
+  }
+  .d57 {
+    background-color: orange;
+  }
+  .d58 {
+    background-color: green;
+  }
+  .d59 {
+    background-color: orange;
+  }
+  
+  .d511 {
+    background-color: teal;
+  }
+  .d512 {
+    background-color: orange;
+  }
+  .d513 {
+    background-color: orangered;
+  }
+  .d514 {
+    background-color: green;
+  }
+  .d515 {
+    background-color: orangered;
+  }
+  .d516 {
+    background-color: teal;
+  }
+  .d517 {
+    background-color:orange;
+  }
+  .d518 {
+    background-color: green;
+  }
+  .d519{
+    background-color: teal;
+  }
+  .d61 {
+    background-color: orangered;
+    grid-column: 1/3;
+  }
+  .d62 {
+    background-color: green;
+    
+  }
+  .d63 {
+    background-color: orange;
+  }
+  .d64 {
+    background-color: orange;
+  }
+
+  .d65 {
+    background-color: green;
+  }
+  .d66 {
+    background-color: teal;
+  }
+  .d67 {
+    background-color: black;
+  }
+  .d68 {
+    background-color: orange;
+    grid-row: 3/5;
+    grid-column: 1/3;
+  }
+  .d69 {
+    background-color: teal;
+    grid-row: 3;
+  }
+  .d611 {
+    background-color: orangered;
+    grid-row: 3;
+  }
+  .d612 {
+    background-color: green;
+    grid-row: 4;
+  }
+  .d613 {
+    background-color:black;
+    
+  }
+  .d614 {
+    background-color: teal;
+    grid-row: 5;
+    grid-column: 1/4;
+  }
+  .d615 {
+    background-color:orange;
+    
+  }
+  .d71 {
+    background-color: orange;
+    grid-column: 1/3;
+    
+  }
+  .d72 {
+    background-color: teal;
+    grid-column: 3/5;
+    
+  }
+  .d73 {
+    background-color: orangered;
+    grid-row: 2/4;
+    grid-column: 1/3;
+  }
+  .d74 {
+    background-color: green;
+    grid-row: 2/4;
+    grid-column: 3/5;
+  }
+  .d75 {
+    background-color: orange;
+    grid-row: 3;
+    grid-column: 4;
+  }
+  .d76 {
+    background-color: teal;
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .d77 {
+    background-color:rgb(109, 162, 162);
+    grid-column: 3/5;
+    grid-row: 2;
+  }
+  .d81 {
+    background-color: orangered;
+  }
+  .d82 {
+    background-color: orange;
+  }
+  .d83 {
+    background-color:rgb(124, 186, 124);
+  }
+  .d84 {
+    background-color:rgb(128, 161, 78);
+  }
+  .d85 {
+    background-color: green;
+   
+  }
+  .d86 {
+    background-color: orange;
+    
+  }
+  .d87 {
+    background-color: orangered;
+   
+  }
+  .d88 {
+    background-color:  rgb(238, 144, 110);
+    grid-column: 3/6;
+  }
+  .d89 {
+    background-color:rgb(72, 208, 208);
+    grid-column:1/6 ;
+    
+  }
+  .d91 {
+    background-color: orange;
+    grid-column: 1/4;
+  }
+  .d92 {
+    background-color:green;
+    grid-row: 2/4;
+  }
+  .d93{
+    background-color: rgb(81, 192, 155);
+    grid-column: 2/4;
+  }
+  .d94{
+    background-color: orangered;
+  }
+  .d95{
+    background-color: orange;
+  }
