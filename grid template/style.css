@@ -1,0 +1,51 @@
+.md{
+    height:350px;
+    width: 350px;
+    background-color:bisque;
+    display: grid;
+    grid-template-areas:
+     'area1 area2 area3' 
+     'area1 area4 area5'
+     'area6 area4 area7';
+    padding: 20px;
+    gap: 5px;
+    margin-top: 150px;
+    margin-left: 600px;  
+}
+.img1{ 
+    grid-area: area1;  
+}
+.img2{
+    grid-area: area2;  
+}
+.img3{
+    grid-area: area3;
+}
+.img4{
+    grid-area: area4;
+}
+.img5{
+    grid-area: area5;
+}
+.img6{
+    grid-area: area6;
+}
+.img7{
+    grid-area: area7;
+}
+.img{
+    border: 5px solid black;
+}
+.img:hover{
+    transition:ease 3s; 
+    transform: scale(1.5);
+}
+marquee{
+    height: 50px;
+    width: 500px;
+    background-color: grey;
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
