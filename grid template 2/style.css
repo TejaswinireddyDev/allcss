@@ -1,0 +1,67 @@
+.md {
+    
+    gap: 5px;
+    padding: 20px;
+    background-color: cadetblue;
+  }
+  .item:hover {
+    transition: ease 3s;
+    transform: scale(1.5);
+    box-shadow: 5px 10px 10px;
+    border-radius: 10px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .md {
+      display: grid;
+      grid-template-areas: "area1 area2 area3" "area4 area2 area5" "area6 area7 area8" "area9 area7 area10";
+    }
+  }
+  @media screen and (min-width: 370px) and (max-width: 599px) {
+    .md {
+      display: grid;
+      grid-template-areas: "area1 area2" "area3 area4" "area5 area6" "area7 area8" "area9 area10";
+    }
+  }
+
+  .item {
+    height: 100%;
+    width: 100%;
+  }
+  .item1 {
+    grid-area: area1;
+  }
+  .item2 {
+    grid-area: area2;
+  }
+  .item3 {
+    grid-area: area3;
+  }
+  .item4 {
+    grid-area: area4;
+  }
+  .item5 {
+    grid-area: area5;
+  }
+  .item6 {
+    grid-area: area6;
+  }
+  .item7 {
+    grid-area: area7;
+  }
+  .item8 {
+    grid-area: area8;
+  }
+  .item9 {
+    grid-area: area9;
+  }
+  .item10 {
+    grid-area: area10;
+  }
+  marquee{
+    /* height: 50px;
+    width: 500px;
+    */
+    color:crimson;
+    background-color: aquamarine;
+  }
